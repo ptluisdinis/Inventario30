@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Inventario30
+  host: Inventario30
+  disk_quota: 1024M
+  services:
+  - Inventario30-AdvancedMobileAccess
+  - Inventario30-imfpush
+  - Inventario30-cloudantNoSQLDB
